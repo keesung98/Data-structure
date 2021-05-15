@@ -8,6 +8,7 @@ typedef struct TreeNode
 	int data;
 	struct TreeNode* left, * right;
 }TreeNode;
+//tree root
 //            15
 //     4             20
 //   1             16   25
