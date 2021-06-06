@@ -156,7 +156,7 @@ void huffman_tree(int freq[], char ch_list[], int n)
 int main(void)
 {
 	char ch_list[] = { 's','i','n','t','e' };
-	int freq[] = { 4,6,8,12,15 };
+	int freq[] = { 4,6,8,12,20 };
 	huffman_tree(freq, ch_list, 5);
 	return 0;
 }
