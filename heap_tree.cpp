@@ -66,7 +66,7 @@ element delete_max_heap(HeapType* h)
 //메인 함수
 int main(void)
 {
-	element e1 = { 40 }, e2 = { 5 }, e3 = { 30 };
+	element e1 = { 40 }, e2 = { 10 }, e3 = { 30 };
 	element e4, e5, e6;
 	HeapType* heap;
 
