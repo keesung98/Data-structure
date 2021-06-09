@@ -10,11 +10,11 @@ typedef struct TreeNode
 }TreeNode;
 //tree root
 //            15
-//     4             20
+//     5             20
 //   1             16   25
 
 TreeNode n1 = { 1,NULL,NULL };
-TreeNode n2 = { 4,&n1,NULL };
+TreeNode n2 = { 5,&n1,NULL };
 TreeNode n3 = { 16,NULL,NULL };
 TreeNode n4 = { 25,NULL,NULL };
 TreeNode n5 = { 20,&n3,&n4 };
