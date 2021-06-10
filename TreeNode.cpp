@@ -23,7 +23,7 @@ int createTree()
 	n2->data = 20;
 	n2->left = NULL;
 	n2->right = NULL;
-	n3->data = 30;
+	n3->data = 40;
 	n3->left = NULL;
 	n3->right = NULL;
 	free(n1);free(n2);free(n3);
