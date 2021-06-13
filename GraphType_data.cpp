@@ -30,7 +30,6 @@ int get_min_vertex(int n)
 	return (v);
 }
 
-
 void prim(GraphType* g, int s)
 {
 	int i, u, v;
@@ -40,7 +39,7 @@ void prim(GraphType* g, int s)
 	for (i = 0; i < g->n; i++) 
 	{
 		u = get_min_vertex(g->n);
-		time =time+g->weight[u][i];
+		time =time+g->weight[u][i]; //시간 측정
 		selected[u] = TRUE;
 		if (distance[u] == INF) return;
 		for (v = 0; v < g->n; v++)
