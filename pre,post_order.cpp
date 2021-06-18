@@ -54,7 +54,7 @@ int postorder(TreeNode* root)
 	}
 	return 0;
 }
-//메인
+//메인 함수
 int main(void)
 {
 	printf("중위 순회 =");
